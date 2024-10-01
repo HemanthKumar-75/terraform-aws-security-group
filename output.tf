@@ -2,6 +2,6 @@
 #     value =   aws_vpc.main.id
 # }
 
-output "sg_details" {
+output "id" {
   value = aws_security_group.main.id
 }
